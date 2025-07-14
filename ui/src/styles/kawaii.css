@@ -1,0 +1,57 @@
+/* src/styles/kawaii.css */
+
+body {
+  background-color: #fffafc;
+  font-family: 'Comic Neue', cursive, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Comic Neue', cursive;
+  color: #ff69b4;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(255, 182, 193, 0.3);
+  transition: transform 0.2s ease;
+  background: #fff0f6;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.btn {
+  border-radius: 2rem;
+  background-color: #ffb6c1;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff69b4;
+}
+
+.navbar {
+  background: linear-gradient(to right, #ffe4e1, #ffb6c1);
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4);
+}
+
+.navbar-brand, .nav-link {
+  font-weight: bold;
+  color: #ff69b4 !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #ff1493 !important;
+}
+
+img {
+  border-radius: 1rem 1rem 0 0;
+}
